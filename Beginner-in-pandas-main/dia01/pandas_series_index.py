@@ -19,4 +19,4 @@ series_idades_srt = seires_idades.sort_values()
 print(series_idades_srt)
 
 ## acessando o alemento de uma series pela posição
-print(series_idades_srt.loc['Jota'])
+print(series_idades_srt.loc[-1])
