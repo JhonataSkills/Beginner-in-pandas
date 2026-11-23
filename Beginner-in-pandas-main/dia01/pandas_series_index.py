@@ -13,7 +13,7 @@ print(idades[-1])
 
 
 ## em series os index são atrelados ao item mas também os itens possuem index de posições  
-seires_idades = pd.Series(idades,index = nomes)
+series_idades = pd.Series(idades,index = nomes)
 print(seires_idades)
 series_idades_srt = seires_idades.sort_values()
 print(series_idades_srt)
